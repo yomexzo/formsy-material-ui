@@ -118,33 +118,33 @@ TestForm = React.createClass({
             name='required'
             required />
 
-          <span style={spanStyle}>validation</span>
+          <span style={spanStyle}>validations</span>
           <FormsyText
-            name='validation'
+            name='validations'
             validations='isWords' />
 
-          <span style={spanStyle}>validation, validationError</span>
+          <span style={spanStyle}>validations, validationError</span>
           <FormsyText
-            name='validation-error'
+            name='validations-error'
             validations='isWords'
             validationError={wordsError} />
 
-          <span style={spanStyle}>validation, required</span>
+          <span style={spanStyle}>validations, required</span>
           <FormsyText
-            name='validation-required'
+            name='validations-required'
             validations='isWords'
             required />
 
-          <span style={spanStyle}>validation, validationError, required</span>
+          <span style={spanStyle}>validations, validationError, required</span>
           <FormsyText
-            name='validation-error-required'
+            name='validations-error-required'
             validations='isWords'
             validationError={wordsError}
             required />
 
-          <span style={spanStyle}>validation, validationError, required, hintText, label</span>
+          <span style={spanStyle}>validations, validationError, required, hintText, floatingLabelText</span>
           <FormsyText
-            name='validation-error-required-hint-label'
+            name='validations-error-required-hint-label'
             validations='isWords'
             validationError={wordsError}
             required
