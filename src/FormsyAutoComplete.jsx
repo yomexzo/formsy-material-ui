@@ -79,7 +79,7 @@ const FormsyAutoComplete = createClass({
         onFocus={onFocus}
         onKeyDown={this.handleKeyDown}
         ref={this.setMuiComponentAndMaybeFocus}
-        value={this.state.value}
+        value={this.state._value}
       />
     );
   },

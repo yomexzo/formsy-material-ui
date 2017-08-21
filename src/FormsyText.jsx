@@ -147,7 +147,7 @@ const FormsyText = createClass({
         onChange={this.handleChange}
         onKeyDown={this.handleKeyDown}
         ref={this.setMuiComponentAndMaybeFocus}
-        value={this.state.value}
+        value={this.state._value}
         underlineStyle={this.state.isValid ? { borderColor: validationColor } : underlineStyle}
         underlineFocusStyle={this.state.isValid ? { borderColor: validationColor } : underlineFocusStyle}
       />
